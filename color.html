@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./color.css">
+    <title>ASSIGNMENT</title>
+</head>
+<body>
+  <!-- assinment 1 -->
+<div id="body1" > 
+<div id="colordiv">
+       <h1>SELECT COLOR</h1>
+    <div id="dropdowndiv">
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a onclick="color1()" >COLOR RED</a>
+          <a onclick="color2()" >COLOR GREEN</a>
+          <a onclick="color3()" >COLOR BLUE</a>
+          <a onclick="color4()" >COLOR YELLOW</a>
+          <a onclick="color5()" >COLOR PINK</a>
+        </div>
+      </div>
+    </div> 
+</div> 
+</div>
+<!-- assinment 2 -->
+<div id="body2" >   
+  <div class="card" id="maindiv" >
+      <div class="" id="seconddiv" >
+          <div id="thirddiv">
+              <h1 style="color: white;font-size: 120px; " id="root" >0</h1>
+          </div>
+          <div class="" id="forthdiv" >
+             <div class="" id="one" >
+              <button onclick="increment()"> <img  width="100px" height="100px" src="./img/plus.png" alt=""> </button>
+             </div>
+             <div class="" id="" >
+              <button onclick="reset()"> <img  width="100px" height="100px" src="./img/refresh.png" alt=""> </button>
+              </div>
+             <div class="" id="" >
+              <button onclick="decrement()"> <img  width="100px" height="100px" src="./img/minus1.png" alt=""> </button>
+             </div>
+             
+          </div>
+      </div>
+    </div>
+  </div> 
+  <!-- assignment 3 -->
+  <div id="body3" >
+       <div>
+          <table class="container col-6 table table-bordered text-center" >
+          <tr>
+            <th>number of voters</th>
+            <th>technologies</th>
+            <th>select</th>
+          </tr>
+               <tr>
+                 <td> <h1 id="html" >0</h1> </td>
+                 <td>HTML</td>
+                 <td><button class="btn btn-primary" onclick="html()">Click Here</button> </td>
+               </tr>
+               <tr>
+                 <td><h1 id="css" >0</h1> </td>
+                 <td>CSS</td>
+                 <td><button class="btn btn-primary" onclick="css()" >Click Here</button></td>
+               </tr>
+               <tr>
+                <td><h1 id="bootstrap" >0</h1> </td>
+                <td>BOOTSTRAP</td>
+                <td><button class="btn btn-primary" onclick="boot()">Click Here</button> </td>
+              </tr>
+              <tr>
+                <td><h1 id="javascript" >0</h1></td>
+                <td>JAVASCRIPT</td>
+                <td><button class="btn btn-primary" onclick="javascript()">Click Here</button> </td>
+              </tr>
+              <tr>
+                <td>  <h1 id="angular" >0</h1> </td>
+                <td>ANGULAR</td>
+                <td><button class="btn btn-primary" onclick="angular()" >Click Here</button> </td>
+              </tr>
+              <tr>
+                <td> <h1 id="react" >0</h1> </td>
+                <td>REACT</td>
+                <td><button class="btn btn-primary" onclick="react()" >Click Here</button> </td> 
+              </tr>
+          </table>
+       </div>
+  </div>
+
+ 
+    <script src="./color.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>  
+</body>
+</html>

@@ -1,0 +1,126 @@
+#body1
+{
+    background-image: url(./img/ocean.webp);
+    background-size:cover;
+    height: 800px;
+    padding-top:100px;
+}
+#colordiv
+{
+    background-color: aqua;
+    width:700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+    text-align: center;
+}
+#dropdowndiv
+{
+    margin: auto;
+    /* margin-left: 250px; */
+}
+#one
+{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+/* fghjk */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 161px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  /* assignment 2 */
+  #body2
+{
+    background-image: url(./img/one.webp);
+    background-size: cover;
+    height: 800px;
+    padding-top: 200px;
+}
+#maindiv
+{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    background-color: blueviolet;
+    border-radius: 20px;
+    
+}
+#seconddiv
+{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(153, 15, 141);
+    border-radius: 10px;
+
+}
+#thirddiv
+{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(17, 35, 197);
+    border-radius: 10px;
+    text-align: center;
+
+}
+#forthdiv
+{
+    display: flex;
+}
+#one
+{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(52, 196, 23);
+    border-radius: 5px;
+}
+/* assignment-3 */
+#body3
+{
+  background-image: url(./img/ocean.webp);
+  background-size:cover;
+  height: 800px;
+  padding-top:200px;
+  color: white;
+}
+table
+{
+  background-color: violet;
+  border-radius: 10px;
+}
